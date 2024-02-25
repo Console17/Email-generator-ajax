@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 560px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  padding: 1em 0.3em;
+  font-weight: 800;
+  font-size: 2.7rem;
+}
+
+.container p {
+  margin-bottom: 2em;
+  font-size: 1rem;
+}
+
+.get {
+  padding: 1em 2.2em;
+
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: purple;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.content {
+  width: 400px;
+  height: 100px;
+  border-radius: 7px;
+}
+
+.close {
+  z-index: 1;
+  position: relative;
+  top: 29px;
+  left: 372px;
+  background: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.close i {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.email {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: purple;
+  color: white;
+  display: none;
+  border-radius: 5px;
+}
+
+.email p {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
